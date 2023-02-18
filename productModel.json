@@ -14,7 +14,7 @@
         ":type": "line"
       },
       "description": {
-        ":type": "line",
+        ":type": "text",
         ":richtext": true
       },
       "category": {

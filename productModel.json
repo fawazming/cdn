@@ -24,14 +24,11 @@
         ":type": "line"
       },
       "rating": {
-        ":description":"Product Rating",
-        ":items": {
-          "rate": {
-            ":type": "line"
-          },
-          "count": {
-            ":type": "line"
-          }
+        "rate": {
+          ":type": "line"
+        },
+        "count": {
+          ":type": "line"
         }
       }
     }

@@ -1,22 +1,38 @@
 {
   ":name": "Ecommerce Product Demo",
   ":description": "This is a demo fake product list api",
-  "custom-field": {
-    ":description": "This example text is used as a description.",
-    ":type": "line"
-  },
-  "custom-object": {
-    "custom-line": {
-      ":type": "line"
-    },
-    "custom-text": {
-      ":type": "text"
-    }
-  },
-  "custom-list": {
+  "products": {
+    ":description": "List of Products",
     ":items": {
-      "custom-list-item": {
+      "id": {
         ":type": "line"
+      },
+      "title": {
+        ":type": "line"
+      },
+      "price": {
+        ":type": "line"
+      },
+      "description": {
+        ":type": "line",
+        ":richtext": true
+      },
+      "category": {
+        ":type": "line"
+      },
+      "image": {
+        ":type": "line"
+      },
+      "rating": {
+        ":description":"Product Rating",
+        ":items": {
+          "rate": {
+            ":type": "line"
+          },
+          "count": {
+            ":type": "line"
+          }
+        }
       }
     }
   }

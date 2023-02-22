@@ -18,7 +18,7 @@
         ":type": "line"
       },
       "image": {
-        ":type": "line"
+        ":type": "image"
       },
       "Donations": {
         "received": {
